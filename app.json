@@ -1,0 +1,21 @@
+{
+    "name": "Lightdash",
+    "description": "Explore and visualise metrics from your dbt cloud project",
+    "website": "https://lightdash.com",
+    "repository": "https://github.com/lightdash/lightdash",
+    "stack": "container",
+    "env": {
+        "DBT_CLOUD_PROJECT_ID": {
+            "description": "Project ID from dbt cloud. See https://docs.lightdash.com/get-started/setup-a-dbt-cloud-project"
+        },
+        "DBT_CLOUD_ACCOUNT_ID": {
+            "description": "Account ID from dbt cloud."
+        },
+        "DBT_CLOUD_ENVIRONMENT_ID": {
+            "description": "Environment ID for your development credentials in dbt cloud."
+        },
+        "DBT_CLOUD_API_KEY": {
+            "description": "Your personal API Key from dbt cloud"
+        }
+    }
+}
