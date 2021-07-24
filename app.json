@@ -3,6 +3,7 @@
     "description": "Explore and visualise metrics from your dbt cloud project",
     "website": "https://lightdash.com",
     "repository": "https://github.com/lightdash/lightdash",
+    "logo": "https://raw.githubusercontent.com/lightdash/lightdash-deploy-heroku/main/logo.png",
     "stack": "container",
     "env": {
         "DBT_CLOUD_PROJECT_ID": {
