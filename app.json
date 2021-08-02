@@ -17,6 +17,16 @@
         },
         "DBT_CLOUD_API_KEY": {
             "description": "Your personal API Key from dbt cloud"
+        },
+        "TRUST_PROXY": {
+            "value": true,
+        },
+        "SECURE_COOKIES": {
+            "value": true,
+        },
+        "LIGHTDASH_SECRET": {
+            "generator": "secret",
+            "description": "Unique secret for your heroku deployment to secure user logins"
         }
     }
 }
