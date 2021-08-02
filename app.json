@@ -25,5 +25,12 @@
             "description": "Unique secret for your heroku deployment to secure user logins"
         }
     },
-    "addons": ["heroku-postgresql"]
+    "addons": [
+        {
+            "plan": "heroku-postgresql",
+            "options": {
+                "version": "9.5"
+            }
+        }
+    ]
 }
