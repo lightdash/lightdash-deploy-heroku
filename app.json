@@ -24,5 +24,6 @@
             "generator": "secret",
             "description": "Unique secret for your heroku deployment to secure user logins"
         }
-    }
+    },
+    "addons": ["heroku-postgresql"]
 }
