@@ -1,5 +1,0 @@
-version: '1.0'
-
-projects:
-  - name: default
-    type: dbt_cloud_ide
