@@ -3,4 +3,4 @@ FROM lightdash/lightdash:latest
 COPY ./entrypoint.sh /usr/bin/entrypoint.sh
 
 ENTRYPOINT ["/usr/bin/entrypoint.sh"]
-CMD ["yarn", "start"]
+CMD ["yarn", "workspace", "backend", "start"]
