@@ -23,7 +23,7 @@
             "description": "Unique install ID"
         },
         "SITE_URL": {
-            "description": "The url where the site will be hosted. Use app-name.herokuapp.com or a custom domain name."
+            "description": "Use https://<your-app-name>.herokuapp.com replacing <your-app-name> with the value above. Or use a custom domain name if you plan to add one to the app later."
         }
     },
     "addons": [
